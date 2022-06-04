@@ -133,6 +133,7 @@ def userLihatProduk():
     print(f"{'KEY':<10} {'NAMA':<10} {'HARGA':<10} {'STOK':<10}")
 
     isi_produk = len(data_product)
+    print(isi_produk)
     if isi_produk >= 1:
         for product in data_product:
             KEY = product
